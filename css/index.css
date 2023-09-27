@@ -9,3 +9,9 @@
 
 /*Layout*/
 @import './layout/header.css';
+@import './layout/main_header.css';
+@import './layout/description.css';
+@import './layout/section(team-card).css';
+@import './layout/portfolio.css';
+@import './layout/footer(section).css';
+@import './layout/backdrop.css';
