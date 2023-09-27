@@ -193,7 +193,8 @@
 
     .team-card-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: nowrap;
         gap: 24px;
     }
 

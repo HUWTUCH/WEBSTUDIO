@@ -27,11 +27,11 @@
     text-transform: uppercase;
 }
 .header-container {
-    padding: 21px 5px 21px 5px;
+    gap: 76px;
 }
 .page-header-container {
-    width: auto;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -132,11 +132,6 @@
     .contacts {
         display: flex;
     }
-    .contact-item:nth-child(1) {
-        margin-bottom: 12px;
-    }
-
-
     .nav-link {
         display: block;
         font-size: 16px;
@@ -186,8 +181,7 @@
     }
 
     .page-header-container {
-        width: 100%;
-        margin: 0;
+        width: 1158px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -267,7 +261,9 @@
     .contacts {
         font-style: normal;
     }
-
+    .contact-item {
+        padding: 0;
+    }
     .contact-list {
         display: flex;
         gap: 40px;

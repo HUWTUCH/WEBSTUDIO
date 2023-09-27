@@ -148,7 +148,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 767px) {
 @media screen and (min-width: 1158px) {
     .main-header {
         display: flex;
-        max-width: 1440px;
+        min-width: 1440px;
         justify-content: center;
         background-color: #2e2f42;
         background-image: linear-gradient(

@@ -78,15 +78,22 @@
 }
 @media screen and (min-width: 1158px) {
     .description {
-        margin-top: 120px;
+        padding-top: 120px;
     }
 
     .description-items {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: nowrap;
         gap: 24px;
     }
-
+    .description-title {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
     .description-item-icon {
         width: 264px;
         height: 112px;
